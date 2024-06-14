@@ -1,8 +1,8 @@
-# class TrieNode:
-#     def __init__(self):
-#         self.children = {}
-#         self.isWord = False
-#         self.refs = 0
+class TrieNode:
+    def __init__(self):
+        self.children = {}
+        self.isWord = False
+        self.refs = 0
 
     def addWord(self, word):
         cur = self
