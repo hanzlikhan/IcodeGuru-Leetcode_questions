@@ -11,7 +11,7 @@ class TrieNode:
             if c not in cur.children:
                 cur.children[c] = TrieNode()
             cur = cur.children[c]
-            cur.refs += 1
+            cur.refs += m,
         cur.isWord = True
 
     def removeWord(self, word):
